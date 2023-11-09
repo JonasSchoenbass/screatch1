@@ -1,4 +1,4 @@
-# code-with-quarkus
+# backend
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
@@ -43,17 +43,14 @@ Or, if you don't have GraalVM installed, you can run the native executable build
 ./mvnw package -Dnative -Dquarkus.native.container-build=true
 ```
 
-You can then execute your native executable with: `./target/code-with-quarkus-1.0.0-SNAPSHOT-runner`
+You can then execute your native executable with: `./target/backend-1.0.0-SNAPSHOT-runner`
 
 If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.
 
-## Related Guides
-
-
 ## Provided Code
 
-### RESTEasy JAX-RS
+### RESTEasy Reactive
 
-Easily start your RESTful Web Services
+Easily start your Reactive RESTful Web Services
 
-[Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+[Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
